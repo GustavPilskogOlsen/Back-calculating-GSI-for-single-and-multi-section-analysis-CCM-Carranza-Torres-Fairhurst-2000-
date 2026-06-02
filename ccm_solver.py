@@ -1,7 +1,8 @@
 """
-CCM Tunnel Solver — Python port of "GRC (2000) framework copy one sheet.xlsx".
+CCM Tunnel Solver.
 
 Convergence-Confinement Method (CCM):
+
     1. Build the Ground Reaction Curve (GRC) from Hoek-Brown rock-mass parameters
        (Carranza-Torres / Hoek closed-form).
     2. Build the Support Characteristic Curve (SCC) for one of seven support types,
@@ -10,9 +11,6 @@ Convergence-Confinement Method (CCM):
     4. Back-calculate the in-situ GSI that makes u_r* match a measured convergence,
        and report the Factor of Safety FoS = p_max / p_i*.
 
-Run:
-    python ccm_solver.py             # solve the Excel reference case
-    python ccm_solver.py --no-plot   # skip the chart
 """
 
 from __future__ import annotations
