@@ -7,8 +7,6 @@ support type and measured u_r; the rock-mass parameters
 (σ_ci, m_i, ν, ψ, γ, GSI) are shared across all sections. With a single
 section the app reduces to the standard single-point back-calculation.
 
-Run:
-    streamlit run "/Users/gusta/Claude programeringsfil/ccm_app.py"
 """
 
 from __future__ import annotations
